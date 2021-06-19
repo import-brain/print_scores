@@ -12,7 +12,7 @@ class scores {
     System.out.println(printed_value);
   }
   static char printed_value = 'x';
-  static int score = 0
+  static int score = 0;
   public static char evaluate(int score) {
   // define score value ranges
   if (score >= 90) {
