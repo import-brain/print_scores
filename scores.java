@@ -1,14 +1,19 @@
 class scores {
   public static void main(String[] args) {
     evaluate(93);
+    System.out.print("score 93 is ");
     System.out.println(printed_value);
     evaluate(85);
+    System.out.print("score 85 is ");
     System.out.println(printed_value);
     evaluate(77);
+    System.out.print("score 77 is ");
     System.out.println(printed_value);
     evaluate(61);
+    System.out.print("score 61 is ");
     System.out.println(printed_value);
     evaluate(49);
+    System.out.print("score 49 is ");
     System.out.println(printed_value);
   }
   static char printed_value = 'x';
