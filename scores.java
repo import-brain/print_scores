@@ -30,5 +30,8 @@ class scores {
   else if (score <= 59) {
     return printed_value = 'F';
   }
+  else {
+  return printed_value = 'x';
   }
+}
 }
